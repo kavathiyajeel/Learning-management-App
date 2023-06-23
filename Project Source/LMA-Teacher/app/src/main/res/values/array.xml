@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thrusday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="Class">
+        <item>CE-A</item>
+        <item>CE-B</item>
+        <item>CE-C</item>
+        <item>IT-A</item>
+        <item>IT-B</item>
+
+    </string-array>
+    <string-array name="time">
+
+        <item>8:00 AM - 8:55 AM</item>
+        <item>8:55 AM - 9:45 AM</item>
+        <!--        <item>8:00 AM - 9:45 AM</item>-->
+        <item>10:00 AM - 10:50 AM</item>
+        <item>10:50 AM - 11:40 AM</item>
+        <!--        <item>10:00 AM - 11:40 AM</item>-->
+        <item>12:30 PM - 1:20 PM</item>
+        <item>1:20 PM - 2:10 PM</item>
+        <!--        <item>1:20 PM - 2:10 PM</item>-->
+
+    </string-array>
+
+    <string-array name="branch">
+        <item>Computer Engineering</item>
+        <item>Mechnical Engineering</item>
+        <item>Electric Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Information Technology</item>
+        <item>Artificial Inteligence</item>
+        <item>Cyber Security</item>
+    </string-array>
+</resources>

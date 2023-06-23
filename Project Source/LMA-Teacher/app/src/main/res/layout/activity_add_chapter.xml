@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Add_Chapter">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ac_animation"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/pdf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+        <!--            title-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/title_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/bg"
+                app:counterTextColor="@color/bg"
+                app:boxStrokeColor="@color/bg"
+                android:textColorHint="@color/bg"
+                app:startIconDrawable="@drawable/ic_chp_title"
+                app:startIconTint="@color/bg"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxStrokeWidth="3dp"
+                app:helperText="* Please Enter Title First"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/red"
+                app:boxCornerRadiusTopStart="10dp"
+                app:counterOverflowTextColor="@color/bg"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/title"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ac_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+
+                    android:textColor="@color/bg"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <!--            file-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/file_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/bg"
+                app:counterTextColor="@color/bg"
+                app:boxStrokeColor="@color/bg"
+                app:boxStrokeWidth="3dp"
+                android:textColorHint="@color/bg"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:startIconDrawable="@drawable/ic_file"
+                app:startIconTint="@color/bg"
+                app:counterOverflowTextColor="@color/bg"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/select_a_file"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ac_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:textColor="@color/bg" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/upload_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/bg"
+            android:elevation="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:paddingHorizontal="38dp"
+            android:paddingVertical="15dp"
+            android:text="Upload"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

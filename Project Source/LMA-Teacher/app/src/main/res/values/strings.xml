@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LMA-Teacher</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="let_s_get_into">Let`s Get Into</string>
+    <string name="learning">Learning</string>
+    <string name="always_learn_new">Always Learn New</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="we_just_need_your_registered">We just need your registered</string>
+    <string name="email_address_to_send_password">email address to send password</string>
+    <string name="reset_link">reset link</string>
+    <string name="email_address">Email Address</string>
+    <string name="send_email">Send Email</string>
+    <string name="username">Enrollment No</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="full_name">Full-name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">register</string>
+    <string name="graduation">Graduation</string>
+    <string name="_sem">Semester</string>
+    <string name="branch">Branch</string>
+    <string name="add_students">Add Students</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="lg_email">Email-Address</string>
+    <string name="Username">Username</string>
+    <string name="lecture_no">Lecture No</string>
+    <string name="class1">Class</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="title">Title</string>
+    <string name="select_a_file">Select a file</string>
+    <string name="edit_profile">Edit details</string>
+    <string name="update_profile">Update</string>
+</resources>

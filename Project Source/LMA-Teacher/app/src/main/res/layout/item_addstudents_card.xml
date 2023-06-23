@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/bg">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/card_profile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                app:shapeAppearance="@style/circle"
+                android:src="@drawable/ic_dp_cropped"/>
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/s_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kavathiya Jeel Harsukhbhai"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/bg"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/s_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20SOEIT11013"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/bg"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/s_semester"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/bg"/>
+                    <TextView
+                        android:id="@+id/s_division"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5IT-A"
+                        android:layout_weight="1"
+                        android:textSize="20dp"
+                        android:textColor="@color/bg"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>

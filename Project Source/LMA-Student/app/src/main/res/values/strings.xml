@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LMA-Student</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="username1">Username</string>
+</resources>
